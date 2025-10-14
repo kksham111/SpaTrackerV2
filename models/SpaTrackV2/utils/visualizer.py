@@ -14,7 +14,7 @@ from matplotlib import cm
 import torch.nn.functional as F
 import torchvision.transforms as transforms
 import moviepy
-from moviepy.editor import ImageSequenceClip
+from moviepy import ImageSequenceClip
 import matplotlib.pyplot as plt
 
 
