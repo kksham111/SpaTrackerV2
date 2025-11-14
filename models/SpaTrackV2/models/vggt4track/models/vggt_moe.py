@@ -15,6 +15,7 @@ from models.SpaTrackV2.models.vggt4track.heads.track_head import TrackHead
 from models.SpaTrackV2.models.vggt4track.utils.loss import compute_loss
 from models.SpaTrackV2.models.vggt4track.utils.pose_enc import pose_encoding_to_extri_intri
 from models.SpaTrackV2.models.tracker3D.spatrack_modules.utils import depth_to_points_colmap, get_nth_visible_time_index
+# from models.SpaTrackV2.models.tracker3D.spatrack_modules.utils_mod import depth_to_points_colmap, get_nth_visible_time_index
 from models.SpaTrackV2.models.vggt4track.utils.load_fn import preprocess_image
 from einops import rearrange
 import torch.nn.functional as F

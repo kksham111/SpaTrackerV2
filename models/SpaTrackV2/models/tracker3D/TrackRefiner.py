@@ -22,6 +22,10 @@ from models.SpaTrackV2.models.tracker3D.spatrack_modules.utils import (
     EfficientUpdateFormer3D, weighted_procrustes_torch, posenc, key_fr_wprocrustes, get_topo_mask,
     TrackFusion, get_nth_visible_time_index
 )
+# from models.SpaTrackV2.models.tracker3D.spatrack_modules.utils_mod import (
+#     EfficientUpdateFormer3D, weighted_procrustes_torch, posenc, key_fr_wprocrustes, get_topo_mask,
+#     TrackFusion, get_nth_visible_time_index
+# )
 from models.SpaTrackV2.models.tracker3D.spatrack_modules.ba import extract_static_from_3DTracks, ba_pycolmap
 from models.SpaTrackV2.models.tracker3D.spatrack_modules.pointmap_updator import PointMapUpdator
 from models.SpaTrackV2.models.tracker3D.spatrack_modules.alignment import affine_invariant_global_loss

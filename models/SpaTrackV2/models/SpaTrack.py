@@ -25,6 +25,7 @@ import kornia
 from models.SpaTrackV2.utils.model_utils import sample_features5d
 import utils3d
 from models.SpaTrackV2.models.tracker3D.spatrack_modules.utils import depth_to_points_colmap, get_nth_visible_time_index
+# from models.SpaTrackV2.models.tracker3D.spatrack_modules.utils_mod import depth_to_points_colmap, get_nth_visible_time_index
 from models.SpaTrackV2.models.utils import pose_enc2mat, matrix_to_quaternion, get_track_points, normalize_rgb
 import random
 
